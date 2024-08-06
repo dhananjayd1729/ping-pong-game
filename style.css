@@ -10,7 +10,7 @@ html {
     width: 800px;
     height: 500px;
     border: 2px solid black;
-    position: absolute;
+    position: relative;
 }
 
 #paddle{
@@ -18,7 +18,7 @@ html {
     height: 60px;
     background-color: rgb(0, 46, 0);
     margin-left: 5px;
-    position: relative;
+    position: absolute;
 }
 
 #ball{
@@ -26,5 +26,5 @@ html {
     height: 15px;
     border-radius: 50%;
     background-color: rgb(252, 3, 61);
-    position: relative;
+    position: absolute;
 }
